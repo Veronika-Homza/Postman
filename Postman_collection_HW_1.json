@@ -19,7 +19,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "{{URL}}/get_method?name={{name }}&age={{age}}",
+					"raw": "{{URL}}/get_method?name={{name}}&age={{age}}",
 					"host": [
 						"{{URL}}"
 					],
@@ -29,7 +29,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name }}"
+							"value": "{{name}}"
 						},
 						{
 							"key": "age",
@@ -50,7 +50,7 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "{{name }}",
+							"value": "{{name}}",
 							"type": "text"
 						},
 						{
@@ -83,7 +83,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/object_info_1?name={{name }}&age={{age}}&weight={{weight}}",
+					"raw": "{{URL}}/object_info_1?name={{name}}&age={{age}}&weight={{weight}}",
 					"host": [
 						"{{URL}}"
 					],
@@ -93,7 +93,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name }}"
+							"value": "{{name}}"
 						},
 						{
 							"key": "age",
@@ -114,7 +114,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/object_info_2?name={{name }}&age={{age}}&salary={{salary}}",
+					"raw": "{{URL}}/object_info_2?name={{name}}&age={{age}}&salary={{salary}}",
 					"host": [
 						"{{URL}}"
 					],
@@ -124,7 +124,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name }}"
+							"value": "{{name}}"
 						},
 						{
 							"key": "age",
@@ -145,7 +145,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/object_info_3?name={{name }}&age={{age}}&salary={{salary}}",
+					"raw": "{{URL}}/object_info_3?name={{name}}&age={{age}}&salary={{salary}}",
 					"host": [
 						"{{URL}}"
 					],
@@ -155,7 +155,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name }}"
+							"value": "{{name}}"
 						},
 						{
 							"key": "age",
@@ -176,7 +176,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}/object_info_4?name={{name }}&age={{age}}&salary={{salary}}",
+					"raw": "{{URL}}/object_info_4?name={{name}}&age={{age}}&salary={{salary}}",
 					"host": [
 						"{{URL}}"
 					],
@@ -186,7 +186,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "{{name }}"
+							"value": "{{name}}"
 						},
 						{
 							"key": "age",
@@ -211,7 +211,7 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "{{name }}",
+							"value": "{{name}}",
 							"type": "text"
 						},
 						{
