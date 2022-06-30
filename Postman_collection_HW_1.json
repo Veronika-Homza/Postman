@@ -19,26 +19,21 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/get_method?name=Veronika&age=25",
-					"protocol": "http",
+					"raw": "{{URL}}/get_method?name={{name }}&age={{age}}",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{URL}}"
 					],
-					"port": "5005",
 					"path": [
 						"get_method"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "Veronika"
+							"value": "{{name }}"
 						},
 						{
 							"key": "age",
-							"value": "25"
+							"value": "{{age}}"
 						}
 					]
 				}
@@ -55,31 +50,26 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "Dzmitry",
+							"value": "{{name }}",
 							"type": "text"
 						},
 						{
 							"key": "age",
-							"value": "25",
+							"value": "{{age}}",
 							"type": "text"
 						},
 						{
 							"key": "salary",
-							"value": "1000",
+							"value": "{{salary}}",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_3",
-					"protocol": "http",
+					"raw": "{{URL}}/user_info_3",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{URL}}"
 					],
-					"port": "5005",
 					"path": [
 						"user_info_3"
 					]
@@ -93,30 +83,25 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_1?name=Alina&age=24&weight=50",
-					"protocol": "http",
+					"raw": "{{URL}}/object_info_1?name={{name }}&age={{age}}&weight={{weight}}",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{URL}}"
 					],
-					"port": "5005",
 					"path": [
 						"object_info_1"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "Alina"
+							"value": "{{name }}"
 						},
 						{
 							"key": "age",
-							"value": "24"
+							"value": "{{age}}"
 						},
 						{
 							"key": "weight",
-							"value": "50"
+							"value": "{{weight}}"
 						}
 					]
 				}
@@ -129,30 +114,25 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_2?name=Vika&age=21&salary=400",
-					"protocol": "http",
+					"raw": "{{URL}}/object_info_2?name={{name }}&age={{age}}&salary={{salary}}",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{URL}}"
 					],
-					"port": "5005",
 					"path": [
 						"object_info_2"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "Vika"
+							"value": "{{name }}"
 						},
 						{
 							"key": "age",
-							"value": "21"
+							"value": "{{age}}"
 						},
 						{
 							"key": "salary",
-							"value": "400"
+							"value": "{{salary}}"
 						}
 					]
 				}
@@ -165,30 +145,25 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_3?name=Misha&age=26&salary=500",
-					"protocol": "http",
+					"raw": "{{URL}}/object_info_3?name={{name }}&age={{age}}&salary={{salary}}",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{URL}}"
 					],
-					"port": "5005",
 					"path": [
 						"object_info_3"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "Misha"
+							"value": "{{name }}"
 						},
 						{
 							"key": "age",
-							"value": "26"
+							"value": "{{age}}"
 						},
 						{
 							"key": "salary",
-							"value": "500"
+							"value": "{{salary}}"
 						}
 					]
 				}
@@ -201,30 +176,25 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_4?name=Dzmitry&age=29&salary=3000",
-					"protocol": "http",
+					"raw": "{{URL}}/object_info_4?name={{name }}&age={{age}}&salary={{salary}}",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{URL}}"
 					],
-					"port": "5005",
 					"path": [
 						"object_info_4"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "Dzmitry"
+							"value": "{{name }}"
 						},
 						{
 							"key": "age",
-							"value": "29"
+							"value": "{{age}}"
 						},
 						{
 							"key": "salary",
-							"value": "3000"
+							"value": "{{salary}}"
 						}
 					]
 				}
@@ -241,31 +211,26 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "Marina",
+							"value": "{{name }}",
 							"type": "text"
 						},
 						{
 							"key": "age",
-							"value": "30",
+							"value": "{{age}}",
 							"type": "text"
 						},
 						{
 							"key": "salary",
-							"value": "600",
+							"value": "{{salary}}",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_2",
-					"protocol": "http",
+					"raw": "{{URL}}/user_info_2",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{URL}}"
 					],
-					"port": "5005",
 					"path": [
 						"user_info_2"
 					]
